@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Обзор веб-приложения для обзора книг
+В этом этапе мне нужно было создать веб-приложение для обзора книг, которое позволит пользователям читать, публиковать и обсуждать обзоры книг.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Фронтенд и бэкенд: Технологии и реализация
+Фронтенд моего веб-приложения отвечает за пользовательский интерфейс и написан с использованием HTML, CSS, JavaScript и React. Эти технологии обеспечивают интуитивно понятный и отзывчивый интерфейс для пользователей. Бэкенд, который обрабатывает данные и отвечает за логику приложения, написан на Django Rest Framework. Это мощное сочетание позволяет эффективно управлять запросами пользователей и предоставлять необходимую информацию.
 
-## Available Scripts
+Процесс деплоя приложения включал в себя настройку серверов, загрузку кода, настройку окружения и запуск всех необходимых служб. Благодаря этому приложение стало доступным пользователям через веб-браузер.
 
-In the project directory, you can run:
+Подход к разработке
+При разработке приложения я сначала определил требования, необходимые для реализации проекта. Затем я приступил к разработке бэкенда, который должен был обеспечить обработку данных и взаимодействие с базой данных. После этого я перешел к созданию фронтенда, который взаимодействует с бэкендом и предоставляет пользователю удобный интерфейс.
 
-### `npm start`
+На некоторых этапах разработки я ставил фокус на скорость реализации, что могло привести к менее оптимизированным участкам кода. В частности, некоторые функции поиска могут работать некорректно при некорректных или необычных запросах. В дальнейшем я планирую оптимизировать эти участки для повышения производительности и надежности.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Функциональность платформы
+Платформа предлагает множество полезных функций для пользователей. Среди них:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Регистрация и вход: Пользователи могут создавать учетные записи и входить в систему.
+Детальный просмотр книг: На странице книги отображается информация о ней, включая обзоры и рейтинги.
+Добавление обзоров и оценок: Пользователи могут добавлять новые обзоры и оценивать книги.
+Поиск книг: Реализована функция поиска, которая позволяет находить книги по названию, автору, дате, рейтингу или популярности.
+Управление контентом: Администраторы имеют возможность добавлять новые книги в базу данных.
+Заключение
+Создание этого веб-приложения стало для меня ценным опытом. Оно позволило мне применить и развить навыки в области веб-разработки, а также предложить пользователям удобную платформу для обзора книг. В дальнейшем я планирую продолжать работу над проектом, улучшая его функциональность и производительность.
 
-### `npm test`
+Ссылки на проект:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Веб-приложение: https://library-client-nfact.vercel.app/
+Репозиторий бэкенда: https://github.com/zhalgas-seidazym/library_backend_nfact
+Сервер бэкенда: https://library-system-app.up.railway.app/
