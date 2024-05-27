@@ -1,0 +1,135 @@
+
+#section-1 {
+    position: relative;
+    top: 230px;
+}
+
+.booksCollection {
+    position: relative;
+    bottom: 100px;
+}
+
+.booksCollection .books {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.booksCollection .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.books img {
+    margin-left: -50px;
+}
+
+
+.booksCollection .books img:hover {
+    transform: scale(1.15);
+}
+
+
+.divider {
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: #2C2C2C;
+}
+
+#section-3 .container {
+    width: 100%;
+}
+
+.sub-sections {
+    display: flex;
+    width: 70%;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    box-sizing: border-box;
+}
+
+.section-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.section-texts h1 {
+    font-size: 100px;
+    width: 90%;
+}
+
+.section-texts p {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.section-img {
+    box-sizing: border-box;
+    width: 20%;
+}
+
+
+#section-4 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-4 .container h1 {
+    font-size: 70px;
+}
+
+
+.buttonsdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.questiontext {
+    text-align: center;
+    color: #343d38;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.maraphone5 {
+    text-align: center;
+    color: #343d38;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.lastbutton {
+    margin: 5px;
+    padding: 5px 75px 5px 75px;
+    color: #787878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 206, 122);
+    border-radius: 50px;
+    text-align: center;
+}
+
+

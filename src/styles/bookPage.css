@@ -1,0 +1,154 @@
+/* Book Searcher Section */
+div.book-searcher {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+div.book-searcher input.search-book-input {
+    width: 60%;
+    padding: 15px 30px;
+    border: #333 solid 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 10px rgb(52 52 52 / 19%);
+}
+
+div.book-searcher input.search-book-input:focus-visible {
+    outline-color: #b6312e;
+}
+
+div.book-searcher div.sort-option-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+div.book-searcher div.sort-option-buttons button.sort-button {
+    padding: 10px 40px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 10px rgb(52 52 52 / 10%);
+}
+
+div.book-searcher div.sort-option-buttons button.sort-button:hover {
+    background: #b6312e;
+    color: #fff;
+    transition: 0.15s;
+}
+
+#byRating:focus{
+    background: #b6312e;
+    color: #fff;
+}
+#byDate:focus{
+    background: #b6312e;
+    color: #fff;
+}#byViews:focus{
+     background: #b6312e;
+     color: #fff;
+ }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    perspective: 1000px;
+    width: 180px;
+    height: 300px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+    z-index: 100;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-front {
+    background-color: white;
+}
+
+.card-back {
+    background-color: #f8f9fa;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card .price {
+    background-color: #00b894;
+    color: white;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+.card .age {
+    background-color: #0984e3;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #636e72;
+    font-size: 14px;
+    margin: 0 10px 10px;
+}
+
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
