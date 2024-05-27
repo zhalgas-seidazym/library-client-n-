@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://library-system-app/'
+    baseURL: 'https://library-system-app.up.railway.app/'
 })
 
 api.interceptors.response.use(
