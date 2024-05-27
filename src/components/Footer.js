@@ -9,11 +9,11 @@ class Footer extends Component {
                 <div className="footertext">
                     <div className="footertexts">
                         <div className="excellast">Library App</div>
-                        <div className="littlegray">АО «Dimash Group»</div>
+                        <div className="littlegray">АО «Zhalgas Group»</div>
                     </div>
                     <div>
-                        <div className="graywords">TOO DIMASH</div>
-                        <div className="graywords">Dinmukhammed Arystambek</div>
+                        <div className="graywords">TOO Zhalgas</div>
+                        <div className="graywords">Zhalgas Seidazym</div>
                         <div className="littlegray">Распространение материала только с указанием авторства</div>
                     </div>
                     <div>
